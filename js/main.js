@@ -16,8 +16,13 @@ const elvesSection = document.querySelector("#elves-section");
 const gnomesSection = document.querySelector("#gnomes-section");
 const halfelvesSection = document.querySelector("#halfelves-section");
 const halflingsSection = document.querySelector("#halflings-section");
-
 const halforcSection = document.querySelector("#halforc-section");
+const astrazoansSection = document.querySelector("#astrazoans-section");
+const bantridsSection = document.querySelector("#bantrids-section");
+const boraisSection = document.querySelector("#borais-section");
+const khizarsSection = document.querySelector("#khizars-section");
+const SROsSection = document.querySelector("#SROs-section");
+const strixSection = document.querySelector("#strix-section");
 
 // Declare taretting variables for all class thumbnails
 const androids = document.querySelector("#androids");
@@ -32,8 +37,13 @@ const elves = document.querySelector("#elves");
 const gnomes = document.querySelector("#gnomes");
 const halfelves = document.querySelector("#halfelves");
 const halflings = document.querySelector("#halflings");
-
 const halforcs = document.querySelector("#halforcs");
+const astrazoans = document.querySelector("#astrazoans");
+const bantrids = document.querySelector("#bantrids");
+const borais = document.querySelector("#borais");
+const khizars = document.querySelector("#khizars");
+const SROs = document.querySelector("#SROs");
+const strix = document.querySelector("#strix");
 
 // Set up event listeners for all classes
 androids.addEventListener("click", viewAndroids);
@@ -48,8 +58,13 @@ elves.addEventListener("click", viewElves);
 gnomes.addEventListener("click", viewGnomes);
 halfelves.addEventListener("click", viewHalfelves);
 halflings.addEventListener("click", viewHalflings);
-
 halforcs.addEventListener("click", viewHalforcs);
+astrazoans.addEventListener("click", viewAstrazoans);
+bantrids.addEventListener("click", viewBantrids);
+borais.addEventListener("click", viewBorais);
+khizars.addEventListener("click", viewKhizars);
+SROs.addEventListener("click", viewSROs);
+strix.addEventListener("click", viewStrix);
 
 // Set up view sections for all classes
 
@@ -142,4 +157,53 @@ function viewHalforcs() {
   infoSection.forEach((el) => el.classList.add("hidden"));
   halforcSection.classList.remove("hidden");
   halforcs.classList.add("selected-thumb");
+}
+
+function viewHalforcs() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  halforcSection.classList.remove("hidden");
+  halforcs.classList.add("selected-thumb");
+}
+
+function viewAstrazoans() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  astrazoansSection.classList.remove("hidden");
+  astrazoans.classList.add("selected-thumb");
+}
+
+function viewBantrids() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  bantridsSection.classList.remove("hidden");
+  bantrids.classList.add("selected-thumb");
+}
+
+function viewBorais() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  boraisSection.classList.remove("hidden");
+  borais.classList.add("selected-thumb");
+}
+
+function viewKhizars() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  khizarsSection.classList.remove("hidden");
+  khizars.classList.add("selected-thumb");
+}
+
+function viewSROs() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  SROsSection.classList.remove("hidden");
+  SROs.classList.add("selected-thumb");
+}
+
+function viewStrix() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  strixSection.classList.remove("hidden");
+  strix.classList.add("selected-thumb");
 }
