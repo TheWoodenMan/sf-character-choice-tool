@@ -12,6 +12,10 @@ const shirrenSection = document.querySelector("#shirren-section");
 const veskSection = document.querySelector("#vesk-section");
 const ysokiSection = document.querySelector("#ysoki-section");
 const dwarvesSection = document.querySelector("#dwarves-section");
+const elvesSection = document.querySelector("#elves-section");
+const gnomesSection = document.querySelector("#gnomes-section");
+const halfelvesSection = document.querySelector("#halfelves-section");
+const halflingsSection = document.querySelector("#halflings-section");
 
 const halforcSection = document.querySelector("#halforc-section");
 
@@ -24,6 +28,10 @@ const shirrens = document.querySelector("#shirrens");
 const vesk = document.querySelector("#vesk");
 const ysoki = document.querySelector("#ysoki");
 const dwarves = document.querySelector("#dwarves");
+const elves = document.querySelector("#elves");
+const gnomes = document.querySelector("#gnomes");
+const halfelves = document.querySelector("#halfelves");
+const halflings = document.querySelector("#halflings");
 
 const halforcs = document.querySelector("#halforcs");
 
@@ -36,6 +44,10 @@ shirrens.addEventListener("click", viewShirrens);
 vesk.addEventListener("click", viewVesk);
 ysoki.addEventListener("click", viewYsoki);
 dwarves.addEventListener("click", viewDwarves);
+elves.addEventListener("click", viewElves);
+gnomes.addEventListener("click", viewGnomes);
+halfelves.addEventListener("click", viewHalfelves);
+halflings.addEventListener("click", viewHalflings);
 
 halforcs.addEventListener("click", viewHalforcs);
 
@@ -95,6 +107,34 @@ function viewDwarves() {
   dwarves.classList.add("selected-thumb");
   infoSection.forEach((el) => el.classList.add("hidden"));
   dwarvesSection.classList.remove("hidden");
+}
+
+function viewElves() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  elves.classList.add("selected-thumb");
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  elvesSection.classList.remove("hidden");
+}
+
+function viewGnomes() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  gnomes.classList.add("selected-thumb");
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  gnomesSection.classList.remove("hidden");
+}
+
+function viewHalfelves() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  halfelves.classList.add("selected-thumb");
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  halfelvesSection.classList.remove("hidden");
+}
+
+function viewHalflings() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  halflings.classList.add("selected-thumb");
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  halflingsSection.classList.remove("hidden");
 }
 
 function viewHalforcs() {
