@@ -4,6 +4,8 @@ a tool that provides a basic overview of each race, class and theme in the starf
 
 ---
 
+Thanks to The Digital Dungeon Master and QueueTimes for making great starfinder content to link to.
+
 Thanks to Nachtrose for the mystery_men placeholder :)
 
 Thanks to 100Devs and The Bachelor - for the capability :)
