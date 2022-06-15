@@ -4,6 +4,8 @@ a tool that provides a basic overview of each race, class and theme in the starf
 
 ---
 
+Thanks to Archives of Nethys - a source of info for all paizo's different worlds
+
 Thanks to The Digital Dungeon Master and QueueTimes for making great starfinder content to link to.
 
 Thanks to Nachtrose for the mystery_men placeholder :)
