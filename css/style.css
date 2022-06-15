@@ -195,8 +195,11 @@ h1 {
 
 .size-subtype {
   flex-basis: 30%;
-
   height: 40%;
+}
+
+.size-subtype > h2 {
+  font-size: 1rem;
 }
 
 .focus-image {
