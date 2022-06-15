@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is where your description goes" />
+    <meta name="keywords" content="one, two, three" />
+
+    <title>Title in the tab</title>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <header>
+    <nav>
+      <ul>
+        <a id="sf-logo" href="#"
+          ><img src="/img/2E-SFLogo150.png" alt="Starfinder Logo"
+        /></a>
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>Races</li></a>
+        <a href="#"><li>Classes</li></a>
+        <a href="#"><li>Themes</li></a>
+        <a href="#"><li></li></a>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <main class="main-section" id="basic-classes">
+      <section class="gallery-container">
+        <section>
+          <section class="image-gallery core-rulebook">
+            <h2 class="side-heading">Core Rulebook</h2>
+            <aside>
+              <section class="image-container selected-thumb" id="androids">
+                <img src="/img/sfandroids.png" alt="Androids" />
+                <label for="androids" class="after">Androids</label>
+              </section>
+              <section class="image-container" id="humans">
+                <img src="/img/sfhumans.png" alt="Humans" />
+                <label for="humans" class="after">Humans</label>
+                <span></span>
+              </section>
+              <section class="image-container" id="kasathas">
+                <img src="/img/sfkasathas.png" alt="Kasathas" />
+                <label for="kasathas" class="after">Kasathas</label>
+              </section>
+              <section class="image-container" id="lashuntas">
+                <img src="/img/sflashuntas.png" alt="Lashuntas" />
+                <label for="lashuntas" class="after">Lashuntas</label>
+              </section>
+              <section class="image-container" id="shirrens">
+                <img src="/img/sfshirrens.png" alt="Shirrens" />
+                <label for="shirrens" class="after">Shirrens</label>
+              </section>
+              <section class="image-container" id="vesk">
+                <img src="/img/sfvesk.png" alt="Vesk" />
+                <label for="vesk" class="after">Vesk</label>
+              </section>
+              <section class="image-container" id="ysoki">
+                <img src="/img/sfysoki.png" alt="Ysoki" />
+                <label for="ysoki" class="after">Ysoki</label>
+              </section>
+            </aside>
+          </section>
+          <section class="image-gallery character-ops-manual">
+            <h2 class="side-heading">Character Ops Manual</h2>
+            <aside>
+              <section class="image-container" id="dwarves">
+                <img src="/img/sfdwarves.webp" alt="dwarves" />
+                <label for="dwarves" class="after">Dwarves</label>
+              </section>
+              <section class="image-container" id="elves">
+                <img src="/img/sfelves.webp" alt="Elves" />
+                <label for="elves" class="after">Elves</label>
+                <span></span>
+              </section>
+              <section class="image-container" id="gnomes">
+                <img src="/img/sfgnomes.webp" alt="Gnomes" />
+                <label for="gnomes" class="after">Gnomes</label>
+              </section>
+              <section class="image-container" id="halfelves">
+                <img src="/img/sfelves.webp" alt="half elves" />
+                <label for="halfelves" class="after">Half-Elves</label>
+              </section>
+              <section class="image-container" id="halforcs">
+                <img src="/img/sfhalforc.webp" alt="Half Orcs" />
+                <label for="halforcs" class="after">Half-Orcs</label>
+              </section>
+              <section class="image-container" id="halflings">
+                <img src="/img/sfhalflings.png" alt="halflings" />
+                <label for="halflings" class="after">Halflings</label>
+              </section>
+            </aside>
+          </section>
+          <section class="image-gallery pact-worlds">
+            <h2 class="side-heading">Pact Worlds</h2>
+            <aside>
+              <section class="image-container" id="astrazoans">
+                <img src="/img/sfastrazoan.png" alt="astrazoans" />
+                <label for="astrazoans" class="after">Astrazoans</label>
+              </section>
+              <section class="image-container" id="bantrids">
+                <img src="/img/sfbantrid.png" alt="bantrids" />
+                <label for="bantrids" class="after">Bantrids</label>
+                <span></span>
+              </section>
+              <section class="image-container" id="borais">
+                <img src="/img/sfborais.png" alt="borais" />
+                <label for="borais" class="after">Borais</label>
+              </section>
+              <section class="image-container" id="khizars">
+                <img src="/img/sfkhizar.png" alt="khizars" />
+                <label for="khizars" class="after">Khizars</label>
+              </section>
+              <section class="image-container" id="SROs">
+                <img src="/img/sfSROs.png" alt="SROs" />
+                <label for="SROs" class="after">SROs</label>
+              </section>
+              <section class="image-container" id="strix">
+                <img src="/img/sfstrix.png" alt="strix" />
+                <label for="strix" class="after">Strix</label>
+              </section>
+            </aside>
+          </section>
+        </section>
+      </section>
+      <!--  Start of Androids section-->
+      <section class="info-section" id="android-section">
+        <a href="https://aonsrd.com/Races.aspx?ItemName=Android"
+          ><h1>Androids</h1></a
+        >
+        <section class="content-container-top">
+          <section class="bar-top-left">
+            <section class="stats-top">
+              <h1>Racial Traits</h1>
+              <span>Ability adjustments</span>
+              <p>+2 Dex, +2 Int, -2 Cha</p>
+              <span>Hit Points</strong></span>
+              <p>4</p>
+              <span>Vital Stats</strong></span>
+              <p>
+                <strong>Average Height</strong> 5–7 ft. </br> <strong>Average Weight</strong> 100-200 lbs.</br> <strong>Age of
+                Maturity</strong> — </br><strong>Maximum Age</strong> See Android entry
+              </p>
+            </section>
+          </section>
+          
+          <section class="bar-top-center">
+            <section class="stats-top iframe-container">
+              <iframe width="510" height="300" src="https://www.youtube.com/embed/hfKEzWG_bZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+          </section>
+          <section class="bar-top-right">
+            <section class="image-top">
+              <img
+                src="/img/sfandroids.png"
+                class="focus-image"
+                alt="Hero Portrait"
+              />
+            </section>
+            <section class="size-subtype">
+              <h2>Size/Subtype</h2>
+              <p>Androids are Medium humanoids with the android subtype.</p>
+            </section>
+          </section>
+          <section class="stats-top-last background">
+            <h1>Background</h1>
+      
+            <p>
+              Complex technological creations crafted to resemble humans, androids were originally a servitor race, but they have since broken free to form their own society. Unlike ordinary robots or ship AIs, androids do not simply respond according to their programming; rather, they have independent consciousnesses and are animated by souls—a distinction crucial to their generally accepted status as people rather than property.
+            </p>
+          </section>
+        </section>
+        <section class="bar-bottom">
+          <h1>Racial Abilities</h1>
+          <section class="stats-bottom feats-section">
+            
+            <h2>Exceptional Vision</h2>
+            <p>Androids have darkvision with a range of 60 feet and low-light vision. See pages 263–264 for more information.</p>
+      
+            <h2>Flat Affect</h2>
+      
+            <p>
+              Androids find emotions confusing and keep them bottled up. They take a –2 penalty to Sense Motive checks, but the DCs of Sense Motive checks attempted against them increase by 2.
+            </p>
+      
+            <h2>Upgrade Slot</h2>
+           
+            <p>Androids have a single armor upgrade slot in their bodies. Regardless of whether androids are wearing physical armor, they can use this slot to install any one armor upgrade that could be installed into light armor.</p>
+          </section>
+          <section class="stats-bottom feats-section">
+            <h2>Constructed</h2>
+      
+            <p>
+              For effects targeting creatures by type, androids count as both constructs and humanoids (whichever type allows an ability to affect them for abilities that affect only one type, and whichever is worse for abilities that affect both types). They receive a +2 racial bonus to saving throws against disease, mind-affecting effects, poison, and sleep, unless those effects specifically target constructs. In addition, androids do not breathe or suffer the normal environmental effects of being in a vacuum.
+            </p>
+          </section>   
+        </section>
+      </section>
+<!-- Start of Humans Section -->
+<section class="info-section hidden" id="human-section">
+  <a href="https://aonsrd.com/Races.aspx?ItemName=Human"
+    ><h1>Humans</h1></a
+  >
+  <section class="content-container-top">
+    <section class="bar-top-left">
+      <section class="stats-top">
+        <h1>Racial Traits</h1>
+        <span>Ability adjustments</span>
+        <p>+2 to any one ability score</p>
+        <span>Hit Points</strong></span>
+        <p>4</p>
+        <span>Vital Stats</strong></span>
+        <p>
+          <strong>Average Height</strong> 5–7 ft. </br>
+           <strong>Average Weight</strong> 100-300 lbs.</br>
+            <strong>Age of Maturity</strong> 18 years </br>
+            <strong>Maximum Age</strong> 80+2d20 years
+        </p>
+      </section>
+    </section>
+    
+    <section class="bar-top-center">
+      <section class="stats-top">
+        <iframe width="510" height="300" src="https://www.youtube.com/embed/S9vlSj-N2UM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </section>
+    </section>
+    <section class="bar-top-right">
+      <section class="image-top">
+        <img
+          src="/img/sfhumans.png"
+          class="focus-image"
+          alt="Hero Portrait"
+        />
+      </section>
+      <section class="size-subtype">
+        <h2>Size/Subtype</h2>
+        <p>Humans are Medium humanoids and have the human subtype.</p>
+      </section>
+    </section>
+    <section class="stats-top-last background">
+      <h1>Background</h1>
+
+      <p>
+        Ambitious, creative, and endlessly curious, humans have shown more drive to explore their system and the universe beyond than any of their neighbor races—for better and for worse. They’ve helped usher in a new era of system-wide communication and organization and are admired for their passion and tenacity, but their tendency to shoot first and think about the consequences later can make them a liability for those races otherwise inclined to work with them.      </p>
+    </section>
+  </section>
+  <section class="bar-bottom">
+    <h1>Racial Abilities</h1>
+    <section class="stats-bottom feats-section">
+      
+      <h2>Bonus Feat</h2>
+      <p>
+        Humans select one extra feat at 1st level.
+      </p>
+
+    </section>
+    <section class="stats-bottom feats-section">
+      <h2>Skilled</h2>
+
+      <p>
+        Humans gain an additional skill rank at 1st level and each level thereafter.
+            </p>
+    </section>   
+  </section>
+</section>
+<!-- Start of Kasathas Section -->
+<section class="info-section hidden" id="kasatha-section">
+  <a href="https://aonsrd.com/Races.aspx?ItemName=Kasatha"
+    ><h1>Kasathas</h1></a
+  >
+  <section class="content-container-top">
+    <section class="bar-top-left">
+      <section class="stats-top">
+        <h1>Racial Traits</h1>
+        <span>Ability adjustments</span>
+        <p>+2 Str, +2 Wis, -2 Int</p>
+        <span>Hit Points</strong></span>
+        <p>4</p>
+        <span>Vital Stats</strong></span>
+        <p>
+          <strong>Average Height</strong> 6-7 ft. </br>
+           <strong>Average Weight</strong> 120-200 lbs.</br>
+            <strong>Age of Maturity</strong> 25 years </br>
+            <strong>Maximum Age</strong> 100+2d20 years
+        </p>
+      </section>
+    </section>
+    
+    <section class="bar-top-center">
+      <section class="stats-top">
+        <iframe width="510" height="300" src="https://www.youtube.com/embed/lLimYiNs17U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </section>
+    </section>
+    <section class="bar-top-right">
+      <section class="image-top">
+        <img
+          src="/img/sfkasathas.png"
+          class="focus-image"
+          alt="Hero Portrait"
+        />
+      </section>
+      <section class="size-subtype">
+        <h2>Size/Subtype</h2>
+        <p>
+          Kasathas are Medium humanoids with the kasatha subtype.
+        </p>
+      </section>
+    </section>
+    <section class="stats-top-last background">
+      <h1>Background</h1>
+
+      <p>
+        Originally from a planet orbiting a dying star far beyond the Pact Worlds, the four-armed kasathas maintain a reputation as a noble and mysterious people. They are famous for their anachronistic warriors, ancient wisdom, and strange traditions.
+      </p>
+    </section>
+  </section>
+  <section class="bar-bottom">
+    <h1>Racial Abilities</h1>
+    <section class="stats-bottom feats-section">
+      
+      <h2>Desert Stride</h2>
+      <p>
+        Kasathas can move through nonmagical difficult terrain in deserts, hills, and mountains at their normal speed.
+      </p>
+      <h2>Historian</h2>
+      <p>
+        Due to their in-depth historical training and the wide-ranging academic background knowledge they possess, kasathas receive a +2 racial bonus to Culture checks.
+      </p>
+    </section>
+    <section class="stats-bottom feats-section">
+      <h2>Four-Armed</h2>
+      <p>
+        Kasathas have four arms, which allows them to wield and hold up to four hands’ worth of weapons and equipment. While their multiple arms increase the number of items they can have at the ready, it doesn’t increase the number of attacks they can make during combat.
+      </p>
+      <h2>Natural Grace</h2>
+      <p>
+        Kasathas receive a +2 racial bonus to Acrobatics and Athletics checks.
+      </p>
+    </section>   
+  </section>
+</section>
+<!-- Start of Lashuntas Section -->
+<section class="info-section hidden" id="lashunta-section">
+  <a href="https://aonsrd.com/Races.aspx?ItemName=lashunta"
+    ><h1>Lashuntas</h1></a
+  >
+  <section class="content-container-top">
+    <section class="bar-top-left">
+      <section class="stats-top">
+        <h1>Racial Traits</h1>
+        <span>Ability adjustments</span>
+        <p>+2 Cha, +2 Str, -2 Wis (Korasha) or +2 Cha, +2 Int, -2 Con (Damaya)</p>
+        <span>Hit Points</strong></span>
+        <p>4</p>
+        <span>Vital Stats</strong></span>
+        <p>
+          <strong>Average Height</strong> 5-7 ft. </br>
+           <strong>Average Weight</strong> 140-180 lbs.</br>
+            <strong>Age of Maturity</strong> 20 years </br>
+            <strong>Maximum Age</strong> 80+2d20 years
+        </p>
+      </section>
+    </section>
+    
+    <section class="bar-top-center">
+      <section class="stats-top">
+        <iframe width="510" height="300" src="https://www.youtube.com/embed/JRHpWBb4XpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </section>
+    </section>
+    <section class="bar-top-right">
+      <section class="image-top">
+        <img
+          src="/img/sflashuntas.png"
+          class="focus-image"
+          alt="Hero Portrait"
+        />
+      </section>
+      <section class="size-subtype">
+        <h2>Size/Subtype</h2>
+        <p>
+          Lashuntas are Medium humanoids with the lashunta subtype.
+      </section>
+    </section>
+    <section class="stats-top-last background">
+      <h1>Background</h1>
+
+      <p>
+        Idealized by many other humanoid races and gifted with innate psychic abilities, lashuntas are at once consummate scholars and enlightened warriors, naturally divided into two specialized subraces with different abilities and societal roles.
+      </p>
+    </section>
+  </section>
+  <section class="bar-bottom">
+    <h1>Racial Abilities</h1>
+    <section class="stats-bottom feats-section">
+      
+      <h2>Dimorphic</h2>
+      <p>
+        All lashuntas gain +2 Charisma at character creation. Korasha lashuntas are muscular (+2 Strength at character creation) but often brash and unobservant (–2 Wisdom at character creation). Damaya lashuntas are typically clever and well-spoken (+2 Intelligence at character creation) but somewhat delicate (–2 Constitution at character creation).
+      </p>
+      <h2>Student</h2>
+      <p>
+        Lashuntas love to learn, and they receive a +2 racial bonus to any two skills of their choice.
+      </p>
+    </section>
+    <section class="stats-bottom feats-section">
+      <h2>Lashunta Magic</h2>
+      <p>
+        Lashuntas gain the following spell-like abilities: At will: daze, psychokinetic hand 1/day: detect thoughts. See Spell-like Abilities on page 262. The caster level for these effects is equal to the lashunta’s level.
+      </p>
+      <h2>Limited Telepathy</h2>
+      <p>
+        Lashuntas can mentally communicate with any creatures within 30 feet with whom they share a language. Conversing telepathically with multiple creatures simultaneously is just as difficult as listening to multiple people speaking.
+      </p>
+    </section>   
+  </section>
+</section>
+<!-- Start of Shirrens Section -->
+<section class="info-section hidden" id="shirren-section">
+  <a href="https://aonsrd.com/Races.aspx?ItemName=shirren"
+    ><h1>Shirren</h1></a
+  >
+  <section class="content-container-top">
+    <section class="bar-top-left">
+      <section class="stats-top">
+        <h1>Racial Traits</h1>
+        <span>Ability adjustments</span>
+        <p>
+          +2 Con, +2 Wis, -2 Cha
+        </p>
+        <span>Hit Points</strong></span>
+        <p>6</p>
+        <span>Vital Stats</strong></span>
+        <p>
+          <strong>Average Height</strong> 5-6 ft. </br>
+           <strong>Average Weight</strong> 100-150 lbs.</br>
+            <strong>Age of Maturity</strong> 5 years </br>
+            <strong>Maximum Age</strong> 50+1d20 years
+        </p>
+      </section>
+    </section>
+    
+    <section class="bar-top-center">
+      <section class="stats-top">
+        <iframe width="510" height="300" src="https://www.youtube.com/embed/Kacs_Gf2tmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </section>
+    </section>
+    <section class="bar-top-right">
+      <section class="image-top">
+        <img
+          src="/img/sfshirrens.png"
+          class="focus-image"
+          alt="Hero Portrait"
+        />
+      </section>
+      <section class="size-subtype">
+        <h2>Size/Subtype</h2>
+        <p>
+          Shirrens are Medium humanoids with the shirren subtype.
+      </section>
+    </section>
+    <section class="stats-top-last background">
+      <h1>Background</h1>
+
+      <p>
+        Once part of a ravenous hive of locust-like predators, the insectile shirrens only recently broke with their hive mind to become a race of telepaths physically addicted to their own individualism, yet dedicated to the idea of community and harmony with other races.
+      </p>
+    </section>
+  </section>
+  <section class="bar-bottom">
+    <h1>Racial Abilities</h1>
+    <section class="stats-bottom feats-section">
+      
+      <h2>Blindsense</h2>
+      <p>
+        Shirrens’ sensitive antennae grant them blindsense (vibration)—the ability to sense vibrations in the air—with a range of 30 feet. See page 262 for more information about blindsense.
+      </p>
+      <h2>Communalism</h2>
+      <p>
+        Shirrens are used to working with others as part of a team. Once per day, as long as an ally is within 10 feet, a shirren can roll a single attack roll or skill check twice and take the higher result.
+      </p>
+    </section>
+    <section class="stats-bottom feats-section">
+      <h2>Cultural Fascination</h2>
+      <p>
+        Shirrens are eager to learn about new cultures and societies. Shirrens receive a +2 racial bonus to Culture and Diplomacy checks.
+      </p>
+      <h2>Limited Telepathy</h2>
+      <p>
+        Shirrens can communicate telepathically with any creatures within 30 feet with whom they share a language. Conversing telepathically with multiple creatures simultaneously is just as difficult as listening to multiple people speak.
+      </p>
+    </section>   
+  </section>
+</section>
+<!-- Start of Vesk Section -->
+<section class="info-section hidden" id="vesk-section">
+  <a href="https://aonsrd.com/Races.aspx?ItemName=vesk"
+    ><h1>vesk</h1></a
+  >
+  <section class="content-container-top">
+    <section class="bar-top-left">
+      <section class="stats-top">
+        <h1>Racial Traits</h1>
+        <span>Ability adjustments</span>
+        <p>
+          +2 Str, +2 Con, -2 Int
+        </p>
+        <span>Hit Points</strong></span>
+        <p>6</p>
+        <span>Vital Stats</strong></span>
+        <p>
+          <strong>Average Height</strong> 6-8 ft. </br>
+           <strong>Average Weight</strong> 200-300 lbs.</br>
+            <strong>Age of Maturity</strong> 16 years </br>
+            <strong>Maximum Age</strong> 70+1d20 years
+        </p>
+      </section>
+    </section>
+    
+    <section class="bar-top-center">
+      <section class="stats-top">
+        <iframe width="510" height="300" src="https://www.youtube.com/embed/u1A_AmISed8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </section>
+    </section>
+    <section class="bar-top-right">
+      <section class="image-top">
+        <img
+          src="/img/sfvesk.png"
+          class="focus-image"
+          alt="Hero Portrait"
+        />
+      </section>
+      <section class="size-subtype">
+        <h2>Size/Subtype</h2>
+        <p>
+          Vesk are Medium humanoids with the vesk subtype.
+      </section>
+    </section>
+    <section class="stats-top-last background">
+      <h1>Background</h1>
+
+      <p>
+        Heavily muscled and covered with thick scales and short, sharp horns, the reptilian vesk are exactly as predatory and warlike as they appear. Originally hailing from a star system near the Pact Worlds, they sought to conquer and subdue their stellar neighbors, as they had all the other intelligent races in their own system, until an overwhelming threat forced them into a grudging alliance with the Pact Worlds—for now.
+      </p>
+    </section>
+  </section>
+  <section class="bar-bottom">
+    <h1>Racial Abilities</h1>
+    <section class="stats-bottom feats-section">
+      
+      <h2>Armor Savant</h2>
+      <p>
+        Vesk use armor in a way that complements their uniquely sturdy physiology. When wearing armor, they gain a +1 racial bonus to AC. When they’re wearing heavy armor, their armor check penalty is 1 less severe than normal.
+      </p>
+      <h2>Fearless</h2>
+      <p>
+        Vesk receive a +2 racial bonus to saving throws against fear effects.
+      </p>
+      <h2>Low-Light Vision</h2>
+      <p>
+        Vesk can see in dim light as if it were normal light. For more details, see page 264.
+      </p>
+    </section>
+    <section class="stats-bottom feats-section">
+      <h2>Natural Weapons</h2>
+      <p>
+        Vesk can attack with a special unarmed strike that deals lethal damage, doesn’t count as archaic, and threatens squares. Vesk gain a special version of the Weapon Specialization feat with this unarmed strike at 3rd level, allowing them to add 1–1/2 × their character level to their damage rolls for this unarmed strike (instead of just adding their character level, as usual).
+      </p>
+      
+    </section>   
+  </section>
+</section>
+<!-- Start of Ysoki Section -->
+<section class="info-section hidden" id="ysoki-section">
+  <a href="https://aonsrd.com/Races.aspx?ItemName=ysoki"
+    ><h1>ysoki</h1></a
+  >
+  <section class="content-container-top">
+    <section class="bar-top-left">
+      <section class="stats-top">
+        <h1>Racial Traits</h1>
+        <span>Ability adjustments</span>
+        <p>
+          +2 Dex, +2 Int, -2 Str
+        </p>
+        <span>Hit Points</strong></span>
+        <p>2</p>
+        <span>Vital Stats</strong></span>
+        <p>
+          <strong>Average Height</strong> 3-4 ft. </br>
+           <strong>Average Weight</strong> 60-100 lbs.</br>
+            <strong>Age of Maturity</strong> 10 years </br>
+            <strong>Maximum Age</strong> 60+1d20 years
+        </p>
+      </section>
+    </section>
+    
+    <section class="bar-top-center">
+      <section class="stats-top">
+        <iframe width="510" height="300" src="https://www.youtube.com/embed/nHwY_Fz4qqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </section>
+    </section>
+    <section class="bar-top-right">
+      <section class="image-top">
+        <img
+          src="/img/sfysoki.png"
+          class="focus-image"
+          alt="Hero Portrait"
+        />
+      </section>
+      <section class="size-subtype">
+        <h2>Size/Subtype</h2>
+        <p>
+          Ysoki are Small humanoids with the ysoki subtype.
+      </section>
+    </section>
+    <section class="stats-top-last background">
+      <h1>Background</h1>
+
+      <p>
+        Small and furtive, the ysoki are often overlooked by larger races. Yet through wit and technological prowess, they’ve spread throughout the solar system, giving truth to the old adage that every starship needs a few rats.
+      </p>
+    </section>
+  </section>
+  <section class="bar-bottom">
+    <h1>Racial Abilities</h1>
+    <section class="stats-bottom feats-section">
+      
+      <h2>Cheek Pouches</h2>
+      <p>
+        Ysoki can store up to 1 cubic foot of items weighing up to 1 bulk in total in their cheek pouches, and they can transfer a single object between hand and cheek as a swift action. A ysoki can disgorge the entire contents of his pouch onto the ground in his square as a move action that does not provoke an attack of opportunity.
+      </p>
+      <h2>Darkvision</h2>
+      <p>
+        Ysoki can see up to 60 feet in the dark. See page 263 for more information.
+      </p>
+      
+    </section>
+    <section class="stats-bottom feats-section">
+      <h2>Moxie</h2>
+      <p>
+        Ysoki are scrappy and nimble even when the odds are against them. A ysoki can stand from prone as a swift action. Additionally, when off-kilter (see page 276), a ysoki does not take the normal penalties to attacks or gain the flat-footed condition. When attempting an Acrobatics check to tumble through the space of an opponent at least one size category larger than himself, a ysoki receive a +5 racial bonus to the check.
+      </p>
+      <h2>Scrounger</h2>
+      <p>
+        Ysoki receive a +2 racial bonus to Engineering, Stealth, and Survival checks.
+      </p>
+    </section>   
+  </section>
+</section>
+<!-- Start of Dwarves Section -->
+<section class="info-section hidden" id="dwarves-section">
+  <a href="https://aonsrd.com/Races.aspx?ItemName=dwarf"
+    ><h1>dwarves</h1></a
+  >
+  <section class="content-container-top">
+    <section class="bar-top-left">
+      <section class="stats-top">
+        <h1>Racial Traits</h1>
+        <span>Ability adjustments</span>
+        <p>
+          +2 Con, +2 Wis, -2 Cha
+        </p>
+        <span>Hit Points</strong></span>
+        <p>6</p>
+        <span>Vital Stats</strong></span>
+        <p>
+          <strong>Average Height</strong> 4 to 4-1/2 ft. </br>
+           <strong>Average Weight</strong> 150–200 lbs.</br>
+            <strong>Age of Maturity</strong> 40 years </br>
+            <strong>Maximum Age</strong> Age 250+2d% years
+        </p>
+      </section>
+    </section>
+    
+    <section class="bar-top-center">
+      <section class="stats-top">
+        <iframe width="510" height="300" src="https://www.youtube.com/embed/Wzzb-CbW3rI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </section>
+    </section>
+    <section class="bar-top-right">
+      <section class="image-top">
+        <img
+          src="/img/sfdwarves.webp"
+          class="focus-image"
+          alt="Hero Portrait"
+        />
+      </section>
+      <section class="size-subtype">
+        <h2>Size/Subtype</h2>
+        <p>
+          Dwarves are Medium humanoids with the dwarf subtype.
+      </section>
+    </section>
+    <section class="stats-top-last background">
+      <h1>Background</h1>
+
+      <p>
+        Dwarves are a stocky race, roughly a foot shorter than humans, with broad, heavy frames. Dwarves trace their heritage to the missing planet of Golarion, yet for them, this is not merely a matter of history, but identity—they were forged in the furnace of Golarion’s subterranean passages, and many dwarves born long after the planet’s disappearance still feel the sting of its loss, kept alive in dwarven song and legend. Dwarven history also claims that they once had a different racial god, Torag, who left his worshipers in the hands of his brother Angradd during the Gap so he could stand guard over Golarion, wherever it is now.
+      </p>
+    </section>
+  </section>
+  <section class="bar-bottom">
+    <h1>Racial Abilities</h1>
+    <section class="stats-bottom feats-section">
+      
+      <h2>Darkvision</h2>
+      <p>
+        Dwarves can see up to 60 feet in the dark.
+      </p>
+      <h2>Slow but Steady</h2>
+      <p>
+        Dwarves have a land speed of 20 feet, which is never modified when they are encumbered or wearing heavy armor. They also gain a +2 racial bonus to saving throws against poisons, spells, and spell-like abilities, and when standing on the ground they gain a +4 racial bonus to their KAC against bull rush and trip combat maneuvers.
+      </p>
+      
+    </section>
+    <section class="stats-bottom feats-section">
+      <h2>Stonecunning</h2>
+      <p>
+        Dwarves gain a +2 bonus to Perception checks to notice unusual stonework, such as traps and hidden doors located in stone walls or floors. They receive a check to notice such features whenever they pass within 10 feet of them, whether or not they are actively looking.
+      </p>
+      <h2>Traditional Enemies</h2>
+      <p>
+        Dwarves still train to fight their ancient enemies. A dwarf gains a +1 racial bonus to attack rolls against a creature with the goblinoid or orc subtype and a +4 racial bonus to AC against an attack from a creature with the giant subtype.
+      </p>
+      <h2>Weapon Familiarity</h2>
+      <p>
+        Dwarves are proficient with basic and advanced melee weapons and gain specialization with those weapons at 3rd level.
+      </p>
+    </section>   
+  </section>
+</section>
+      <!--  Start of Half orc section-->
+      <section class="info-section hidden" id="halforc-section">
+        <a href="https://aonsrd.com/Races.aspx?ItemName=Half-Orc"
+          ><h1>Half Orcs</h1></a
+        >
+        <section class="content-container-top">
+          <section class="bar-top-left">
+            <section class="stats-top">
+              <h1>Racial Traits</h1>
+              <span>Ability adjustments</span>
+              <p>+2 to any ability score</p>
+              <span>Hit Points</strong></span>
+              <p>6</p>
+              <span>Vital Stats</strong></span>
+              <p>
+                <strong>Average Height</strong> 5–7 ft. </br> <strong>Average Weight</strong> 130–200 lbs.</br> <strong>Age of
+                Maturity</strong> 14 years </br><strong>Maximum Age</strong> 60+2d10 years
+              </p>
+            </section>
+          </section>
+          
+          <section class="bar-top-center">
+            <section class="stats-top iframe-container">
+              <iframe width="510" height="300" src="https://www.youtube.com/embed/6h74S1q8u1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            </section>
+          </section>
+          <section class="bar-top-right">
+            <section class="image-top">
+              <img
+                src="/img/sfhalforc.webp"
+                class="focus-image"
+                alt="Hero Portrait"
+              />
+            </section>
+            <section class="size-subtype">
+              <h2>Size/Subtype</h2>
+              <p>Half-orcs are Medium humanoids with both the human and orc subtypes.</p>
+            </section>
+          </section>
+          <section class="stats-top-last background">
+            <h1>Background</h1>
+
+            <p>
+              Half-orcs have both human and orc ancestry. Though these
+              individuals sometimes result from the union of orcs and humans,
+              the relative rarity of pure-blooded orcs among the Pact Worlds
+              means that most half-orcs are the children of other half-orcs.
+              They usually stand a bit taller than humans and have strong,
+              muscular builds, with green or gray skin. Many halforcs have
+              tusk-like canines protruding from their lower jaws, as well as
+              slightly pointed ears and large brows that give them a brooding
+              appearance.
+            </p>
+          </section>
+        </section>
+        <section class="bar-bottom">
+          <h1>Racial Abilities</h1>
+          <section class="stats-bottom feats-section">
+            
+            <h2>Darkvision</h2>
+            <p>Half-orcs can see up to 60 feet in the dark.</p>
+
+            <h2>Intimidating</h2>
+
+            <p>
+              Half-orcs receive a +2 racial bonus to Intimidate skill checks.
+            </p>
+
+            <h2>Self-Sufficient</h2>
+           
+            <p>Half-orcs receive a +2 racial bonus to Survival skill checks.</p>
+          </section>
+          <section class="stats-bottom feats-section">
+            <h2>Orc Ferocity</h2>
+
+            <p>
+              Once per day, a half-orc brought to 0 Hit Points but not killed
+              can fight on for 1 more round. The half-orc drops to 0 HP and is
+              <a href="https://www.aonsrd.com/Rules.aspx?ID=165">{Dying}</a> (following
+              the normal rules for death and
+              <a href="https://www.aonsrd.com/Rules.aspx?ID=165">{Dying}</a> but can
+              continue to act normally until the end of his next turn, when he
+              becomes
+              <a href="https://www.aonsrd.com/Rules.aspx?ID=165">{Unconcious}</a> as
+              normal. If he takes additional damage before this, he ceases to be
+              able to act and falls
+              <a href="https://www.aonsrd.com/Rules.aspx?ID=165">{Unconcious}</a>.
+            </p>
+          </section>   
+        </section>
+      </section>
+      <section class="gallery-container">
+        <section>
+          <section class="image-gallery alien-archive-one">
+            <h2 class="side-heading">Alien Archive I</h2>
+            <aside>
+              <section class="image-container" id="barathu">
+                <img src="/img/placeholder200x200.png" alt="barathu" />
+                <label for="barathu" class="after">barathu</label>
+              </section>
+              <section class="image-container" id="contemplative">
+                <img src="/img/placeholder200x200.png" alt="contemplative" />
+                <label for="contemplative" class="after">contemplative</label>
+                <span></span>
+              </section>
+              <section class="image-container" id="draelik">
+                <img src="/img/placeholder200x200.png" alt="draelik" />
+                <label for="draelik" class="after">draelik</label>
+              </section>
+              <section class="image-container" id="drow">
+                <img src="/img/placeholder200x200.png" alt="drow" />
+                <label for="drow" class="after">drow</label>
+              </section>
+              <section class="image-container" id="formian">
+                <img src="/img/placeholder200x200.png" alt="formian" />
+                <label for="formian" class="after">formian</label>
+              </section>
+              <section class="image-container" id="gray">
+                <img src="/img/placeholder200x200.png" alt="gray" />
+                <label for="gray" class="after">gray</label>
+              </section>
+              <section class="image-container" id="haan">
+                <img src="/img/placeholder200x200.png" alt="haan" />
+                <label for="haan" class="after">haan</label>
+              </section>
+              <section class="image-container" id="ikeshti">
+                <img src="/img/placeholder200x200.png" alt="ikeshti" />
+                <label for="ikeshti" class="after">ikeshti</label>
+              </section>
+              <section class="image-container" id="kalo">
+                <img src="/img/placeholder200x200.png" alt="kalo" />
+                <label for="kalo" class="after">kalo</label>
+              </section>
+              <section class="image-container" id="maraquoi">
+                <img src="/img/placeholder200x200.png" alt="maraquoi" />
+                <label for="maraquoi" class="after">maraquoi</label>
+              </section>
+              <section class="image-container" id="nuar">
+                <img src="/img/placeholder200x200.png" alt="nuar" />
+                <label for="nuar" class="after">nuar</label>
+              </section>
+              <section class="image-container" id="reptoid">
+                <img src="/img/placeholder200x200.png" alt="reptoid" />
+                <label for="reptoid" class="after">reptoid</label>
+              </section>
+              <section class="image-container" id="ryphorian">
+                <img src="/img/placeholder200x200.png" alt="ryphorian" />
+                <label for="ryphorian" class="after">ryphorian</label>
+              </section>
+              <section class="image-container" id="sarcesian">
+                <img src="/img/placeholder200x200.png" alt="sarcesian" />
+                <label for="sarcesian" class="after">sarcesian</label>
+              </section>
+              <section class="image-container" id="shobhad">
+                <img src="/img/placeholder200x200.png" alt="shobhad" />
+                <label for="shobhad" class="after">Shobhad</label>
+              </section>
+              <section class="image-container" id="Skittermander">
+                <img src="/img/placeholder200x200.png" alt="Skittermander" />
+                <label for="Skittermander" class="after">Skittermander</label>
+              </section>
+              <section class="image-container" id="urog">
+                <img src="/img/placeholder200x200.png" alt="urog" />
+                <label for="urog" class="after">urog</label>
+              </section>
+              <section class="image-container" id="verthani">
+                <img src="/img/placeholder200x200.png" alt="verthani" />
+                <label for="verthani" class="after">verthani</label>
+              </section>
+              <section class="image-container" id="witchwyrd">
+                <img src="/img/placeholder200x200.png" alt="witchwyrd" />
+                <label for="witchwyrd" class="after">witchwyrd</label>
+              </section>
+            </aside>
+          </section>
+          <section class="image-gallery alien-archive-two">
+            <h2 class="side-heading">Alien Archive II</h2>
+            <aside>
+              <section class="image-container" id="aasimar">
+                <img src="/img/placeholder200x200.png" alt="aasimar" />
+                <label for="aasimar" class="after">Aasimar</label>
+              </section>
+              <section class="image-container" id="bolida">
+                <img src="/img/placeholder200x200.png" alt="bolida" />
+                <label for="bolida" class="after">Bolida</label>
+                <span></span>
+              </section>
+              <section class="image-container" id="damai">
+                <img src="/img/placeholder200x200.png" alt="damai" />
+                <label for="damai" class="after">Damai</label>
+              </section>
+              <section class="image-container" id="embri">
+                <img src="/img/placeholder200x200.png" alt="embri" />
+                <label for="embri" class="after">Embri</label>
+              </section>
+              <section class="image-container" id="ghoran">
+                <img src="/img/placeholder200x200.png" alt="ghoran" />
+                <label for="ghoran" class="after">Ghoran</label>
+              </section>
+              <section class="image-container" id="hobgoblin">
+                <img src="/img/placeholder200x200.png" alt="hobgoblin" />
+                <label for="hobgoblin" class="after">Hobgoblin</label>
+              </section>
+              <section class="image-container" id="kanabo">
+                <img src="/img/placeholder200x200.png" alt="kanabo" />
+                <label for="kanabo" class="after">Kanabo</label>
+              </section>
+              <section class="image-container" id="orc">
+                <img src="/img/placeholder200x200.png" alt="orc" />
+                <label for="orc" class="after">Orc</label>
+              </section>
+              <section class="image-container" id="osharu">
+                <img src="/img/placeholder200x200.png" alt="osharu" />
+                <label for="osharu" class="after">Osharu</label>
+              </section>
+              <section class="image-container" id="pahtra">
+                <img src="/img/placeholder200x200.png" alt="pahtra" />
+                <label for="pahtra" class="after">Pahtra</label>
+              </section>
+              <section class="image-container" id="phentomite">
+                <img src="/img/placeholder200x200.png" alt="phentomite" />
+                <label for="phentomite" class="after">Phentomite</label>
+              </section>
+              <section class="image-container" id="quorlu">
+                <img src="/img/placeholder200x200.png" alt="quorlu" />
+                <label for="quorlu" class="after">Quorlu</label>
+              </section>
+              <section class="image-container" id="tiefling">
+                <img src="/img/placeholder200x200.png" alt="tiefling" />
+                <label for="tiefling" class="after">Tiefling</label>
+              </section>
+              <section class="image-container" id="trox">
+                <img src="/img/placeholder200x200.png" alt="trox" />
+                <label for="trox" class="after">Trox</label>
+              </section>
+              <section class="image-container" id="upliftedbear">
+                <img src="/img/placeholder200x200.png" alt="upliftedbear" />
+                <label for="upliftedbear" class="after">Uplifted Bear</label>
+              </section>
+              <section class="image-container" id="vlaka">
+                <img src="/img/placeholder200x200.png" alt="vlaka" />
+                <label for="vlaka" class="after">vlaka</label>
+              </section>
+            </aside>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <script type="text/javascript" src="/js/main.js"></script>
+  </body>
+</html>

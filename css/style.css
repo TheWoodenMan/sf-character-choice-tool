@@ -1,0 +1,311 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  background-color: #051626;
+  color: #ede6ce;
+  font-weight: bold;
+}
+
+body {
+  background-color: #051626;
+  color: #ede6ce;
+  font-size: 62.5%;
+}
+
+label {
+  background-color: #c03318;
+  color: #ede6ce;
+  font-size: 1rem;
+}
+
+header,
+li,
+h1,
+h2,
+h3,
+h4 {
+  background-color: #1d507d;
+  color: #ede6ce;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+
+.stats-bottom > span,
+.stats-top > span {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0 0 0 5%;
+  font-weight: bold;
+}
+
+p {
+  font-size: 0.8rem;
+  width: 80%;
+  padding: 0 0 0 5%;
+}
+
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+nav {
+  height: 6vh;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+}
+
+nav > ul > a {
+  flex-basis: 5%;
+}
+
+#sf-logo {
+  flex-basis: 10%;
+  align-self: flex-end;
+}
+
+span {
+  width: 100%;
+}
+
+/***
+*
+*  Main Section
+*
+*/
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.info-section {
+  border: white solid 0.5px;
+  width: 70%;
+  display: block;
+}
+
+.content-container-top {
+  display: flex;
+  flex-flow: wrap;
+}
+
+h1 {
+  width: 100%;
+  border: white solid 0.5px;
+}
+
+.side-heading {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.bar-bottom,
+.bar-top {
+  display: flex;
+  border: white solid 0.5px;
+}
+
+.bar-top-left {
+  height: 40vh;
+  width: 20%;
+}
+
+.bar-top-center {
+  height: 40vh;
+  width: 60%;
+}
+
+.bar-top-right {
+  height: 40vh;
+  width: 20%;
+  align-self: center;
+}
+
+.stats-top-last {
+  width: 100%;
+}
+
+.bar-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  width: 100%;
+  height: 40vh;
+}
+
+.stats-bottom {
+  width: 50%;
+  height: 50%;
+}
+
+.feats-section {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.feats-section > h2 {
+  width: 100%;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-top {
+  flex-basis: 30%;
+
+  height: 60%;
+}
+
+.size-subtype {
+  flex-basis: 30%;
+
+  height: 40%;
+}
+
+.focus-image {
+  object-fit: contain;
+}
+
+.stats-top {
+  flex-basis: 35%;
+  overflow-y: auto;
+}
+
+.bar-top-left {
+  overflow-y: auto;
+}
+
+/***
+*
+*  Image Gallery
+*
+*/
+
+.gallery-container {
+  width: 25%;
+  border: white solid 0.5px;
+}
+
+.image-gallery {
+  overflow-y: auto;
+  width: 100%;
+}
+
+.stats-bottom {
+  overflow-y: auto;
+  width: 50%;
+}
+
+.core-rulebook {
+  height: 35vh;
+}
+
+.character-ops-manual {
+  height: 30vh;
+}
+
+.pact-worlds {
+  height: 29vh;
+}
+
+.alien-archive-one {
+  height: 47vh;
+}
+
+.alien-archive-two {
+  height: 47vh;
+}
+
+aside {
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+}
+
+.image-container {
+  width: 33%;
+  position: relative;
+  padding: 1%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-container .after {
+  position: absolute;
+  top: 73px;
+  left: 0;
+  font-size: 1rem;
+  width: 96%;
+  height: 23%;
+  text-align: center;
+}
+
+label {
+  padding: 2% 5%;
+  position: relative;
+  display: inline;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  font-size: 0.7rem;
+  text-transform: capitalize;
+}
+
+/***
+*
+*  Image Gallery
+*
+*/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.hidden {
+  display: none;
+}
+
+.selected-thumb {
+  font-weight: bold;
+  border: 2px solid #c03318;
+}
