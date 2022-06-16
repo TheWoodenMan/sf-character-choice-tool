@@ -27,6 +27,8 @@ I would prefer to put art in all the thumbnails but I didn't want to fall foul o
 Keen to hear any feedback on that interpretation, open source or similar options if anyone can let me know please do.
 Placeholders look rough and it looks so much better with real art.
 
+Thanks to Nachtrose for the mystery-men placeholders :) https://github.com/Nachtrose
+
 _________________________________________________________________________________________________________________________
 
 
