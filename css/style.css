@@ -42,16 +42,15 @@ h4 {
   text-transform: capitalize;
 }
 
-.stats-bottom > span,
-.stats-top > span {
-  font-size: 1rem;
+.feats-section > span,
+.feats-section > span {
   text-align: center;
   padding: 0 0 0 5%;
   font-weight: bold;
 }
 
 p {
-  font-size: 0.8rem;
+  font-size: 1.6rem;
   width: 80%;
   padding: 0 0 0 5%;
 }
@@ -123,7 +122,6 @@ h1 {
   z-index: 5;
 }
 
-.bar-bottom,
 .bar-top {
   display: flex;
   border: white solid 0.5px;
@@ -155,17 +153,14 @@ h1 {
   flex-basis: 50%;
   width: 100%;
   height: 40vh;
-}
-
-.stats-bottom {
-  width: 50%;
-  height: 50%;
+  border: white solid 0.5px;
 }
 
 .feats-section {
   width: 50%;
   height: 90%;
   display: flex;
+  overflow-y: auto;
   flex-direction: column;
 }
 
@@ -211,7 +206,8 @@ h1 {
   overflow-y: auto;
 }
 
-.bar-top-left {
+.bar-top-left,
+.size-subtype {
   overflow-y: auto;
 }
 
@@ -229,11 +225,6 @@ h1 {
 .image-gallery {
   overflow-y: auto;
   width: 100%;
-}
-
-.stats-bottom {
-  overflow-y: auto;
-  width: 50%;
 }
 
 .core-rulebook {
@@ -275,12 +266,16 @@ img {
 
 .image-container .after {
   position: absolute;
-  top: 73px;
+  top: 125px;
   left: 0;
-  font-size: 1rem;
+  font-size: 1.4rem;
   width: 96%;
   height: 23%;
   text-align: center;
+}
+
+#skittermander {
+  font-size: smaller;
 }
 
 label {
@@ -290,7 +285,6 @@ label {
   left: 0;
   top: 0;
   z-index: 2;
-  font-size: 0.7rem;
   text-transform: capitalize;
 }
 
@@ -311,4 +305,186 @@ label {
 .selected-thumb {
   font-weight: bold;
   border: 2px solid #c03318;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media all and (max-width: 1920px) {
+  .iframe-container {
+    padding-bottom: 75%;
+  }
+  .image-container .after {
+    font-size: 1rem;
+    width: 96%;
+    top: 100px;
+    height: 23%;
+  }
+  .feats-section > span,
+  .stats-top > span {
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+@media all and (max-width: 1600px) {
+  .iframe-container {
+    padding-bottom: 90%;
+  }
+  .image-container .after {
+    font-size: 1rem;
+    top: 85px;
+    width: 96%;
+    height: 23%;
+  }
+  .feats-section > span,
+  .stats-top > span {
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+@media all and (max-width: 1400px) {
+  .iframe-container {
+    padding-bottom: 90%;
+  }
+  .image-container .after {
+    font-size: 1.2rem;
+    top: 110px;
+    width: 96%;
+    height: 23%;
+  }
+  .feats-section > span,
+  .stats-top > span {
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  .image-container {
+    width: 50%;
+    position: relative;
+    padding: 1%;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .iframe-container {
+    padding-bottom: 50%;
+  }
+  .image-container .after {
+    font-size: 1.2rem;
+    top: 100px;
+    width: 96%;
+    height: 23%;
+  }
+  .feats-section > span,
+  .stats-top > span {
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  .image-container {
+    width: 50%;
+    position: relative;
+    padding: 1%;
+  }
+  .stats-top {
+    flex-basis: 100%;
+    overflow-y: auto;
+  }
+  .bar-top-left {
+    height: 25vh;
+    width: 100%;
+  }
+  .bar-top-right {
+    height: 10vh;
+    width: 100%;
+  }
+
+  .bar-top-center {
+    height: 30vh;
+    width: 100%;
+  }
+  .size-subtype {
+    width: 100%;
+    height: 25vh;
+  }
+
+  .image-top {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .iframe-container {
+    padding-bottom: 50%;
+  }
+  .image-container .after {
+    font-size: 1.2rem;
+    top: 90px;
+    width: 96%;
+    height: 23%;
+  }
+  .feats-section > span,
+  .stats-top > span {
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  .image-container {
+    width: 50%;
+    position: relative;
+    padding: 1%;
+  }
+  .stats-top {
+    flex-basis: 100%;
+    overflow-y: auto;
+  }
+  .bar-top-left {
+    height: 25vh;
+    width: 100%;
+  }
+  .bar-top-right {
+    height: 10vh;
+    width: 100%;
+  }
+
+  .bar-top-center {
+    height: 30vh;
+    width: 100%;
+  }
+  .size-subtype {
+    width: 100%;
+    height: 25vh;
+  }
+
+  .image-top {
+    display: none;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .bar-bottom {
+    height: 100vh;
+    border: white solid 0.5px;
+  }
+
+  .feats-section {
+    width: auto;
+    height: 25vh;
+    overflow-y: auto;
+  }
+  .image-container {
+    width: 100%;
+    position: relative;
+    padding: 1%;
+  }
 }
