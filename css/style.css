@@ -42,6 +42,14 @@ h4 {
   font-size: 1.6rem;
   text-transform: capitalize;
 }
+h5 {
+  background-color: #1d507d;
+  color: #ede6ce;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
 
 .feats-section > span,
 .feats-section > span {
