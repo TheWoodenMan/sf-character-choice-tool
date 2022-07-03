@@ -26,6 +26,9 @@ const strixSection = document.querySelector("#strix-section");
 const barathuSection = document.querySelector("#barathu-section");
 const contemplativeSection = document.querySelector("#contemplative-section");
 const draelikSection = document.querySelector("#draelik-section");
+const drowSection = document.querySelector("#drow-section");
+const formianSection = document.querySelector("#formian-section");
+const graySection = document.querySelector("#gray-section");
 
 // Declare taretting variables for all class thumbnails
 const androids = document.querySelector("#androids");
@@ -50,6 +53,9 @@ const strix = document.querySelector("#strix");
 const barathu = document.querySelector("#barathu");
 const contemplative = document.querySelector("#contemplative");
 const draelik = document.querySelector("#draelik");
+const drow = document.querySelector("#drow");
+const formian = document.querySelector("#formian");
+const gray = document.querySelector("#gray");
 
 // Set up event listeners for all classes
 androids.addEventListener("click", viewAndroids);
@@ -74,6 +80,9 @@ strix.addEventListener("click", viewStrix);
 barathu.addEventListener("click", viewBarathu);
 contemplative.addEventListener("click", viewContemplative);
 draelik.addEventListener("click", viewDraelik);
+drow.addEventListener("click", viewDrow);
+formian.addEventListener("click", viewFormian);
+gray.addEventListener("click", viewGray);
 
 // Set up view sections for all classes
 
@@ -236,4 +245,25 @@ function viewDraelik() {
   infoSection.forEach((el) => el.classList.add("hidden"));
   draelikSection.classList.remove("hidden");
   draelik.classList.add("selected-thumb");
+}
+
+function viewDrow() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  drowSection.classList.remove("hidden");
+  drow.classList.add("selected-thumb");
+}
+
+function viewFormian() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  formianSection.classList.remove("hidden");
+  formian.classList.add("selected-thumb");
+}
+
+function viewGray() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  graySection.classList.remove("hidden");
+  gray.classList.add("selected-thumb");
 }
