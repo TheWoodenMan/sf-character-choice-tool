@@ -23,6 +23,7 @@ const boraisSection = document.querySelector("#borais-section");
 const khizarsSection = document.querySelector("#khizars-section");
 const SROsSection = document.querySelector("#SROs-section");
 const strixSection = document.querySelector("#strix-section");
+const barathuSection = document.querySelector("#barathu-section");
 
 // Declare taretting variables for all class thumbnails
 const androids = document.querySelector("#androids");
@@ -44,6 +45,7 @@ const borais = document.querySelector("#borais");
 const khizars = document.querySelector("#khizars");
 const SROs = document.querySelector("#SROs");
 const strix = document.querySelector("#strix");
+const barathu = document.querySelector("#barathu");
 
 // Set up event listeners for all classes
 androids.addEventListener("click", viewAndroids);
@@ -65,6 +67,7 @@ borais.addEventListener("click", viewBorais);
 khizars.addEventListener("click", viewKhizars);
 SROs.addEventListener("click", viewSROs);
 strix.addEventListener("click", viewStrix);
+barathu.addEventListener("click", viewBarathu);
 
 // Set up view sections for all classes
 
@@ -206,4 +209,11 @@ function viewStrix() {
   infoSection.forEach((el) => el.classList.add("hidden"));
   strixSection.classList.remove("hidden");
   strix.classList.add("selected-thumb");
+}
+
+function viewBarathu() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  barathuSection.classList.remove("hidden");
+  barathu.classList.add("selected-thumb");
 }

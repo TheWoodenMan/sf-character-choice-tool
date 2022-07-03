@@ -315,6 +315,11 @@ label {
   border: 2px solid #c03318;
 }
 
+ul > span {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
