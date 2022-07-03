@@ -24,6 +24,8 @@ const khizarsSection = document.querySelector("#khizars-section");
 const SROsSection = document.querySelector("#SROs-section");
 const strixSection = document.querySelector("#strix-section");
 const barathuSection = document.querySelector("#barathu-section");
+const contemplativeSection = document.querySelector("#contemplative-section");
+const draelikSection = document.querySelector("#draelik-section");
 
 // Declare taretting variables for all class thumbnails
 const androids = document.querySelector("#androids");
@@ -46,6 +48,8 @@ const khizars = document.querySelector("#khizars");
 const SROs = document.querySelector("#SROs");
 const strix = document.querySelector("#strix");
 const barathu = document.querySelector("#barathu");
+const contemplative = document.querySelector("#contemplative");
+const draelik = document.querySelector("#draelik");
 
 // Set up event listeners for all classes
 androids.addEventListener("click", viewAndroids);
@@ -68,6 +72,8 @@ khizars.addEventListener("click", viewKhizars);
 SROs.addEventListener("click", viewSROs);
 strix.addEventListener("click", viewStrix);
 barathu.addEventListener("click", viewBarathu);
+contemplative.addEventListener("click", viewContemplative);
+draelik.addEventListener("click", viewDraelik);
 
 // Set up view sections for all classes
 
@@ -216,4 +222,18 @@ function viewBarathu() {
   infoSection.forEach((el) => el.classList.add("hidden"));
   barathuSection.classList.remove("hidden");
   barathu.classList.add("selected-thumb");
+}
+
+function viewContemplative() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  contemplativeSection.classList.remove("hidden");
+  contemplative.classList.add("selected-thumb");
+}
+
+function viewDraelik() {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  draelikSection.classList.remove("hidden");
+  draelik.classList.add("selected-thumb");
 }

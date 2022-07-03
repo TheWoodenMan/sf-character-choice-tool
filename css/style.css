@@ -64,9 +64,12 @@ p {
   padding: 0 0 0 5%;
 }
 
-a:link {
+a:link,
+a:active,
+a:hover,
+a:visited {
   text-decoration: none;
-  color: inherit;
+  color: white;
 }
 
 /******************************************
@@ -296,6 +299,12 @@ label {
   text-transform: capitalize;
 }
 
+footer {
+  position: fixed;
+  z-index: 5;
+  bottom: 0;
+}
+
 /***
 *
 *  Image Gallery
@@ -313,11 +322,6 @@ label {
 .selected-thumb {
   font-weight: bold;
   border: 2px solid #c03318;
-}
-
-ul > span {
-  font-size: 1rem;
-  padding: 1rem;
 }
 
 /******************************************
