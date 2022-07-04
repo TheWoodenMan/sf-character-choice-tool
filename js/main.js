@@ -86,6 +86,13 @@ gray.addEventListener("click", viewGray);
 
 // Set up view sections for all classes
 
+function viewSelector(queryTarget, raceSection) {
+  imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
+  queryTarget.classList.add("selected-thumb");
+  infoSection.forEach((el) => el.classList.add("hidden"));
+  raceSection.classList.remove("hidden");
+}
+
 function viewAndroids() {
   imageContainer.forEach((el) => el.classList.remove("selected-thumb"));
   androids.classList.add("selected-thumb");
