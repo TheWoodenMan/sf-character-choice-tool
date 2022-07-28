@@ -30,7 +30,7 @@ Or go make a character sheet at Hephaistos
 
 HTML/CSS/Javascript
 
-The site is made with very basic javascript and HTML, essentially it is 30+ sites all hidden, but individually woken up
+The site is made with very basic javascript and HTML, essentially it is 30+ sites all hidden, but individually revealed
 one by one as needed by the user selector.
 
 I put links to a few of the best class overview videos on youtube:
