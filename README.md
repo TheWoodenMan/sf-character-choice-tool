@@ -4,15 +4,23 @@ a tool that provides a basic overview of each race, class and theme in the starf
 
 ## Background
 
+My players found the initial race, class and theme choices in Starfinder a little overwhelming, 
+this tool is designed to signpost players to the race, theme and class they want, 
+quickly and with only a bare summary of the rules.
+
+https://thewoodenman.github.io/sf-character-choice-tool/
+![starfinder-screenshot](https://user-images.githubusercontent.com/85075266/181402489-abd3b00a-dd37-4acb-9f88-8ec3bcda3434.png)
+
+
+# Other Tools
+
 If you need encyclopedic rules details, best to go to Archives of Nethys - a source of info for all paizo's different worlds (Appreciated!)
 https://aonsrd.com/
 
 If you want to create a detailed character sheet exportable to json and up to date with all the options - go to hephaistos 
 https://hephaistos.azurewebsites.net/
 
-My players found the initial race, class and theme choices in Starfinder a little overwhelming, 
-this tool is designed to signpost players to the race, theme and class they want, 
-quickly and with only a bare summary of the rules.
+
 
 After that they can head over to archives for a deep dive on the info (linked on each page)
 
